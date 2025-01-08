@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Customer Fetch</title>
+    <link rel="stylesheet" href="/static/style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Admin Panel: Fetch Customer Data</h1>
+
+      <form action="/fetch" method="POST">
+        <label for="customer_id">Enter Customer ID:</label>
+        <input type="number" id="customer_id" name="customer_id" required />
+        <button type="submit">Fetch Details</button>
+      </form>
+    </div>
+  </body>
+</html>
